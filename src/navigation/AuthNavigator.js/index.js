@@ -8,8 +8,8 @@ const AuthNavigator = () => {
 
     const  AuthStack = createStackNavigator();
     return (
-        <AuthStack.Navigator initialRouteName={SIGN_IN}>
-            <AuthStack.Screen name={SIGN_IN} component={SignIn}/> 
+        <AuthStack.Navigator initialRouteName={SIGN_IN}   screenOptions={{headerShown:false}}>
+            <AuthStack.Screen name={SIGN_IN} component={SignIn} options={{ title: 'My home' }}/> 
             <AuthStack.Screen name={SIGN_UP} component={SignUp}/>
         </AuthStack.Navigator>
     )
