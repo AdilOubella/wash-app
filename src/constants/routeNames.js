@@ -1,0 +1,5 @@
+export const SIGN_UP = 'SIGN_UP'
+export const SIGN_IN = 'SIGN_IN'
+export const SETTINGS = 'SETTINGS'
+export const ORDERS = 'ORDERS' 
+export const SERVICES = 'SERVICES'
